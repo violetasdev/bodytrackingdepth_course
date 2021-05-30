@@ -7,15 +7,18 @@ This repository contains the files for the SOSE 2021 course "Body tracking in cl
 * Requirements
 * Install instructions
 * Useful links
+* Exercises
 
 ## Azure Kinect
 
 * Requirements
 * Install instructions
 * Useful links
+* Exercises
 
 ## Zed 2i Sterolabs
 
 * Requirements
 * Install instructions
 * Useful links
+* Exercises
