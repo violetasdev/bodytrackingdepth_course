@@ -21,4 +21,4 @@ In the repository, you will find in the folder the exercises for each device.
 5. Depth cameras hardware overview
 6. Depth cameras models
  
-Links will be available soon!
+Slides links will be available soon!
