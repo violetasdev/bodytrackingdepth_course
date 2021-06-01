@@ -13,5 +13,12 @@ To find the install process described for your device, go to the [Wiki](https://
 ## Exercises
 In the repository, you will find in the folder the exercises for each device. 
 
-## Course slides
-Available soon!
+## Course topics
+1. Introduction to the course
+2. Tracking technologies and techniques
+3. Depth sensor technologies. Concepts and techniques
+4. Identifying human body cues with depth cameras
+5. Depth cameras hardware overview
+6. Depth cameras models
+ 
+Links will be available soon!
