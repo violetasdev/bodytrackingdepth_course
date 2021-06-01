@@ -1,4 +1,4 @@
-# Body Tracking with Depth Cameras course
+# Body Tracking with Depth Sensor Cameras course
 
 This repository contains the files for the SOSE 2021 course "_Body tracking in closed spaces with depth cameras_" at the Institute for Geoinformations at the University of Münster. In this course we will be using three different depth cameras. After the theoretical background, the exercises will give more insights on the data available and the code manipulation for accessing it.
 
