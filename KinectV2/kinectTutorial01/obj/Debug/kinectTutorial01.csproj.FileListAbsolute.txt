@@ -1,0 +1,5 @@
+C:\Users\Violeta\Documents\GitHub desktop\bodytrackingdepth_course\KinectV2\kinectTutorial01\obj\Debug\kinectTutorial01.csproj.AssemblyReference.cache
+C:\Users\Violeta\Documents\GitHub desktop\bodytrackingdepth_course\KinectV2\kinectTutorial01\obj\Debug\MainWindow.g.cs
+C:\Users\Violeta\Documents\GitHub desktop\bodytrackingdepth_course\KinectV2\kinectTutorial01\obj\Debug\App.g.cs
+C:\Users\Violeta\Documents\GitHub desktop\bodytrackingdepth_course\KinectV2\kinectTutorial01\obj\Debug\kinectTutorial01_MarkupCompile.cache
+C:\Users\Violeta\Documents\GitHub desktop\bodytrackingdepth_course\KinectV2\kinectTutorial01\obj\Debug\kinectTutorial01_MarkupCompile.lref
