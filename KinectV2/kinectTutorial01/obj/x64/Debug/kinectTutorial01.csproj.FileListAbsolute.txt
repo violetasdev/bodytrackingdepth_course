@@ -1,0 +1,17 @@
+C:\Users\Violeta\Documents\GitHub desktop\bodytrackingdepth_course\KinectV2\kinectTutorial01\bin\x64\Debug\kinectTutorial01.exe.config
+C:\Users\Violeta\Documents\GitHub desktop\bodytrackingdepth_course\KinectV2\kinectTutorial01\bin\x64\Debug\kinectTutorial01.exe
+C:\Users\Violeta\Documents\GitHub desktop\bodytrackingdepth_course\KinectV2\kinectTutorial01\bin\x64\Debug\kinectTutorial01.pdb
+C:\Users\Violeta\Documents\GitHub desktop\bodytrackingdepth_course\KinectV2\kinectTutorial01\bin\x64\Debug\Microsoft.Kinect.dll
+C:\Users\Violeta\Documents\GitHub desktop\bodytrackingdepth_course\KinectV2\kinectTutorial01\bin\x64\Debug\Microsoft.Kinect.xml
+C:\Users\Violeta\Documents\GitHub desktop\bodytrackingdepth_course\KinectV2\kinectTutorial01\obj\x64\Debug\MainWindow.g.cs
+C:\Users\Violeta\Documents\GitHub desktop\bodytrackingdepth_course\KinectV2\kinectTutorial01\obj\x64\Debug\App.g.cs
+C:\Users\Violeta\Documents\GitHub desktop\bodytrackingdepth_course\KinectV2\kinectTutorial01\obj\x64\Debug\kinectTutorial01_MarkupCompile.cache
+C:\Users\Violeta\Documents\GitHub desktop\bodytrackingdepth_course\KinectV2\kinectTutorial01\obj\x64\Debug\kinectTutorial01_MarkupCompile.lref
+C:\Users\Violeta\Documents\GitHub desktop\bodytrackingdepth_course\KinectV2\kinectTutorial01\obj\x64\Debug\MainWindow.baml
+C:\Users\Violeta\Documents\GitHub desktop\bodytrackingdepth_course\KinectV2\kinectTutorial01\obj\x64\Debug\kinectTutorial01.g.resources
+C:\Users\Violeta\Documents\GitHub desktop\bodytrackingdepth_course\KinectV2\kinectTutorial01\obj\x64\Debug\kinectTutorial01.Properties.Resources.resources
+C:\Users\Violeta\Documents\GitHub desktop\bodytrackingdepth_course\KinectV2\kinectTutorial01\obj\x64\Debug\kinectTutorial01.csproj.GenerateResource.cache
+C:\Users\Violeta\Documents\GitHub desktop\bodytrackingdepth_course\KinectV2\kinectTutorial01\obj\x64\Debug\kinectTutorial01.csproj.CoreCompileInputs.cache
+C:\Users\Violeta\Documents\GitHub desktop\bodytrackingdepth_course\KinectV2\kinectTutorial01\obj\x64\Debug\kinectTutorial01.csproj.CopyComplete
+C:\Users\Violeta\Documents\GitHub desktop\bodytrackingdepth_course\KinectV2\kinectTutorial01\obj\x64\Debug\kinectTutorial01.exe
+C:\Users\Violeta\Documents\GitHub desktop\bodytrackingdepth_course\KinectV2\kinectTutorial01\obj\x64\Debug\kinectTutorial01.pdb
