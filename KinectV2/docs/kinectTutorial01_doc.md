@@ -8,6 +8,3 @@ You must have already followed the guide for installing and configuring the Kine
 
 You must have configured your Visual Studio 2019 correctly as instructed [Link]()
 
-### Tutorial Steps
-
-1. 
