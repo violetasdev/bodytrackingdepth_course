@@ -18,7 +18,7 @@ In this tutorial, you will find the instructions for configuring your Visual Stu
 1. Open your Visual Studio 2019
 2. Select the option __Create new poject__
 
-<img src="images/01/001_opensensor.png" width=20%>
+<img src="images/01/001_opensensor.png" width=30%>
 
 
 3. Search for __WPF__
@@ -42,7 +42,7 @@ For running the application using the Microsoft Kinect library, you will need to
 ### Configuring for __x64__ build
 1. Open the __Configuration Manager__. Go to __Build__ in the context menu, and select __Configuration Manager__
 
-<img src="images/01/05_configuration%20manager.png" width=20%>
+<img src="images/01/05_configuration%20manager.png" width=30%>
 
 
 2. In __Active solution plataform__ open the scroll menu and select __<New...>__
@@ -52,7 +52,7 @@ For running the application using the Microsoft Kinect library, you will need to
 
 3. It should pop up the __x64__ text automatically, if not, just select it or write it down.
 
-<img src="images/01/06_create%2064.png" width=20%>
+<img src="images/01/06_create%2064.png" width=30%>
 
 4. Click on __OK__
 5. Click on __Close__
@@ -63,7 +63,7 @@ For running the application using the Microsoft Kinect library, you will need to
 ### Configuring __unsafe__ code
 1. Open the __Solution Explorer__. Go to __View__ in the context menu, and select __Solution Explorer__
 
-<img src="images/01/00_unsafe.png" width=20%>
+<img src="images/01/00_unsafe.png" width=30%>
 
 2. Right click on your project name, and select __Properties__
 
@@ -77,7 +77,7 @@ For running the application using the Microsoft Kinect library, you will need to
 
 4. From the options, check __Allow unsafe code__
 
-<img src="images/01/04_unsafe.png" width=40%>
+<img src="images/01/04_unsafe.png" width=50%>
 
 
 5. Save with Ctrl+S or click on the Save icon.
