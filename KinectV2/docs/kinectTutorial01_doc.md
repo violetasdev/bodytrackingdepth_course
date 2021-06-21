@@ -25,7 +25,7 @@ You must have configured your Visual Studio 2019 correctly as instructed [Link](
 
 4. For the code to be able to use the extension, you must declare it in your ___MainWindow.xaml.cs__ file:
 
-```
+```C#
 ... 
 
 using System.Windows.Media.Imaging;
@@ -48,18 +48,18 @@ namespace kinectTutorial01
 ### Opening the camera
 
 1. Create a __KinectSensor__ Object from the __Microsoft.Kinect__ library
-```
+```C#
 private KinectSensor kinectSensor = null;
 ```
 
 2. In the Main class, call the Kinect device with the method __GetDefault()__
-```
+```C#
 // Initialize the sensor
             kinectSensor = KinectSensor.GetDefault();
 ```
 
 3. Open your sensor with the method, __Open()__
-```
+```C#
 // Open the sensor
             kinectSensor.Open();
 ```
@@ -79,7 +79,7 @@ private KinectSensor kinectSensor = null;
 
 8. The final code should look like this:
 
-```
+```C#
 // other libraries from your template
 ....
 
