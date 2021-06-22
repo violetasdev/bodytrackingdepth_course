@@ -61,7 +61,7 @@ namespace kinectTutorial02
             // create the bitmap to display
             this.bitmap = new WriteableBitmap(infraredFrameDescription.Width, infraredFrameDescription.Height, 96.0, 96.0, PixelFormats.Gray32Float, null);
 
-            // use the window object as the view model in this simple example
+            //                                                                                                                                                           Important! Without this we cannot display the image in the interface
             this.DataContext = this;
 
             // open the sensor

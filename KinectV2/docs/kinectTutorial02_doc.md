@@ -25,6 +25,14 @@ __Important objects__: To handle all the infrared frame data, we will need the f
 
 Now that we understand our goal and the main variables, let's start coding the solution:
 
+0. Include the Kinect library to your source code:
+
+```C#
+...  
+ /// Kinect Libraries
+using Microsoft.Kinect;
+```
+
 1. In the ___class MainWindow__ from your code file, ___MainWindow.XAML.cs___, declare the variables for retrieving the information:
 
 ```C#
@@ -101,6 +109,9 @@ public MainWindow()
 
             // open the reader for the depth frames
             this.infraredFrameReader = kinectSensor.InfraredFrameSource.OpenReader();
+
+            // wire handler for frame arrival - This is a defined method
+            this.infraredFrameReader.FrameArrived += Reader_InfraredFrameArrived;
 ...
 
 ```
@@ -170,12 +181,34 @@ private unsafe void ProcessInfraredFrameData(IntPtr infraredFrameData, uint infr
             this.bitmap.Unlock();
         }
 ```
+8. Finally, we characterize the bitmap object with the data retreived from the __InfraredFrameDescription__ such as Height and Width to create the __bitmap__ object:
 
-8. Now, we will configure the interface to display the image we created. Open your interface file by clicking in ___MainWindow.XAML.cs___. You will see a Windows 10 type form with the XAML code below. XAML is a markup language, so you need to properly close the tags to make it work. 
+
+```C#
+...
+// wire handler for frame arrival - This is a defined method
+            this.infraredFrameReader.FrameArrived += Reader_InfraredFrameArrived;
+            // get FrameDescription from InfraredFrameSource
+            this.infraredFrameDescription = kinectSensor.InfraredFrameSource.FrameDescription;
+
+            // create the bitmap to display
+            this.bitmap = new WriteableBitmap(infraredFrameDescription.Width, infraredFrameDescription.Height, 96.0, 96.0, PixelFormats.Gray32Float, null);
+
+            // Important! Without this we cannot display the image in the interface
+            this.DataContext = this;
+
+            // open the sensor
+            this.kinectSensor.Open();
+
+            InitializeComponent();
+        }
+```
+
+9. Now, we will configure the interface to display the image we created. Open your interface file by clicking in ___MainWindow.XAML.cs___. You will see a Windows 10 type form with the XAML code below. XAML is a markup language, so you need to properly close the tags to make it work. 
 
 <img src="images/02/02_xamlwindow.png" >
 
-9. The project already comes with the basic template. We will add elements inside the __Grid__ tag. A grid is composed of rows and columns. So we will define the following tags:
+10. The project already comes with the basic template. We will add elements inside the __Grid__ tag. A grid is composed of rows and columns. So we will define the following tags:
 
 * __Grid.RowDefinitions__: for controlling the resizing
 * __TextBlock__: control to display text. We will add the title of our tutorial to inform others what are we displaying
@@ -198,8 +231,8 @@ private unsafe void ProcessInfraredFrameData(IntPtr infraredFrameData, uint infr
 ```
 
 
-10. Save everything. Now, Build and Run your code. Click on the green play button to start. You should get a result like this:
+11. Save everything. Now, Build and Run your code. Click on the green play button to start. You should get a result like this:
 
 <img src="images/02/02_results.png" >
 
-11. Congratulations! You finished Tutorial 02. 
+12. Congratulations! You finished Tutorial 02. Check the complete source code in the repository for a complete overview [Link](https://github.com/violetasdev/bodytrackingdepth_course/tree/master/KinectV2/kinectTutorial02)
