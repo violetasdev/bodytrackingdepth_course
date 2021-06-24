@@ -1,8 +1,8 @@
-# Tutorial 2: Color camera
+# Tutorial 3: Color camera
 
-In this tutorial, you will be able to get access to the RGB camera feed. Once you run the code, you will have a window displaying the color image received.
+In this tutorial, you will be able to create an interactive interface to get access to all properties of the camera feed. Once you run the code, you will have a window displaying a frame source, and three buttons to change in between them.
 
-__Our goal:__ Every frame that we receive arrives as ___color frame data___ for every pixel of the camera resolution. We need to transform this to an RGB in a dataset. Once organized, we will transfer the data set to create a visible image in our interface. 
+__Our goal:__ We will learn how to access events in the interface and to manage different frame sources from our depth cameras. 
 
 ## Prerequisites
 
@@ -12,7 +12,7 @@ __Our goal:__ Every frame that we receive arrives as ___color frame data___ for 
 
 * You already know the general details of opening the camera. Check the [Tutorial 01](https://github.com/violetasdev/bodytrackingdepth_course/blob/master/KinectV2/docs/kinectTutorial01_doc.md) as this is the template we are following.
 
-## Setting up the RGB Feed
+## Setting up depth feed
 
 Before opening the camera, we need to code and declare the events and variables to retrieve the color frames.
 

@@ -51,7 +51,7 @@ namespace kinectTutorial02
             // Initialize the sensor
             this.kinectSensor = KinectSensor.GetDefault();
 
-            // open the reader for the depth frames
+            // open the reader for the frames
             this.infraredFrameReader = kinectSensor.InfraredFrameSource.OpenReader();
             // wire handler for frame arrival - This is a defined method
             this.infraredFrameReader.FrameArrived += Reader_InfraredFrameArrived;
