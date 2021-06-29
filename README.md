@@ -1,15 +1,27 @@
-# Body Tracking with Depth Cameras course
+# Body Tracking with Depth Sensor Cameras course
 
-This repository contains the files for the SOSE 2021 course "Body tracking in closed spaces with depth cameras". In this course we will be using three different depth cameras. after the theoretical bacckground, the exercises will cover how to handle the code for accesing depth information, skeleton tracking information and use of this data. 
+This repository contains the files for the SOSE 2021 course "_Body tracking in closed spaces with depth sensor cameras_" at the Institute for Geoinformations at the University of Münster. In this course we will be using three different depth cameras. After the theoretical background, the exercises will give more insights on the data available and the code manipulation for accessing it.
 
-## Kinect V2
+## Installation intructions
+To find the install process described for your device, go to the [Wiki](https://github.com/violetasdev/bodytrackingdepth_course/wiki) of this repository and found your device! You will find a page for each depth camera available with the following content:
 
 * Requirements
 * Install instructions
+* Testing configuration
 * Useful links
-* Exercises
 
-## Azure Kinect
+## Exercises
+In the repository, you will find in the folder the exercises for each device. 
+
+## Course topics
+1. Introduction to the course
+2. Tracking technologies and techniques
+3. Depth sensor technologies. Concepts and techniques
+4. Identifying human body cues with depth cameras
+5. Depth cameras hardware overview
+6. Depth cameras models
+ 
+Slides links will be available soon!
 
 * Requirements
 * Install instructions
@@ -25,3 +37,4 @@ This repository contains the files for the SOSE 2021 course "Body tracking in cl
 
 ## Disclaimer:
 The tutorials are based on the dynamics from [Kinect V02 Tutorial (2015)](http://kinect.github.io/tutorial/) but the code has been updated to work for Windows 10 applications using the __Windows.Kinect__ library as in the __Kinect V2 SDK Samples__. We hope this is helpful for other developers using KinectV2 from 2020.
+
