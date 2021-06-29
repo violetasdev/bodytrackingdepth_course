@@ -79,7 +79,7 @@ public partial class MainWindow : Window, INotifyPropertyChanged
         private MultiSourceFrameReader multiSourceFrameReader = null;
 ```
 
-Additionally, after your __public MainWindow()__, create the EventHandler. This object does not have any other code lines as the compiler will take care of it. The EventHandler help us to notify the main programm about the changes of the selected source frame:
+Additionally, after your __public MainWindow()__, create the EventHandler. This object does not have any other code lines as the compiler will take care of it. The EventHandler help us to notify the main programm about the changes of the selected source frame that relies on the __CurrentFrameDescription__ variable:
 
 ```C#
 public MainWindow()
@@ -88,6 +88,22 @@ public MainWindow()
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
+
+        public FrameDescription CurrentFrameDescription
+        {
+            get { return this.currentFrameDescription; }
+            set
+            {
+                if (this.currentFrameDescription != value)
+                {
+                    this.currentFrameDescription = value;
+                    if (this.PropertyChanged != null)
+                    {
+                        this.PropertyChanged(this, new PropertyChangedEventArgs("CurrentFrameDescription"));
+                    }
+                }
+            }
+        }
 ```
 
 5. As we are processing this time also depth information, we need to define the range of the __map depth__ and the data structure to store the values:
