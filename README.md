@@ -22,3 +22,6 @@ This repository contains the files for the SOSE 2021 course "Body tracking in cl
 * Install instructions
 * Useful links
 * Exercises
+
+## Disclaimer:
+The tutorials are based on the dynamics from [Kinect V02 Tutorial (2015)](http://kinect.github.io/tutorial/) but the code has been updated to work for Windows 10 applications using the __Windows.Kinect__ library as in the __Kinect V2 SDK Samples__. We hope this is helpful for other developers using KinectV2 from 2020.
