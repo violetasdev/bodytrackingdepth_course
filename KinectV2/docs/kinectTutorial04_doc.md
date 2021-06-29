@@ -379,4 +379,4 @@ __Note__: Remember to activate the ___Allow unsafe code___ in your project's ___
 
 16. Finally, test changing the value of the __DEFAULT_DISPLAYFRAMETYPE__ at the beginning of our partial class and check what the difference is. 
 
-16. Congratulations! You finished Tutorial 03. Check the complete source code in the repository for a comprehensive overview [Link](https://github.com/violetasdev/bodytrackingdepth_course/tree/master/KinectV2/kinectTutorial04)
+16. Congratulations! You finished Tutorial 04. Check the complete source code in the repository for a comprehensive overview [Link](https://github.com/violetasdev/bodytrackingdepth_course/tree/master/KinectV2/kinectTutorial04)
