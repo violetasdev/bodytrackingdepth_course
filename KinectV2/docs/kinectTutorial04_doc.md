@@ -143,6 +143,27 @@ public MainWindow()
             InitializeComponent();
         }
 ```
+
+As we did in previous Tutorials, remember to create the __ImageSource__ object for displaying your data:
+
+```C#
+
+public MainWindow()
+        {
+            ....
+        }
+
+        ....
+        
+        public ImageSource ImageSource
+        {
+            get
+            {
+                return this.bitmap;
+            }
+        }
+
+```
 6. We have to create now the method __SetupcurrentDisplay__. This method will be fired on every button click, receiving an argument the __DisplayFrameType__. According to the value, which we will evaluate with a ___switch case___, it will create the objects necessary to process Infrared, Color, or Depth data.
 
 Notice that the general structure is the same for all the sources. The main difference is in the definition of the __Pixel Format__ as each type needs to be transformed in different sizes and format of pixels:

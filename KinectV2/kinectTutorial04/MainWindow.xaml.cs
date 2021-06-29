@@ -117,7 +117,7 @@ namespace kinectTutorial04
                 case DisplayFrameType.Infrared:
                     FrameDescription infraredFrameDescription = this.kinectSensor.InfraredFrameSource.FrameDescription;
                     this.CurrentFrameDescription = infraredFrameDescription;
-                    // allocate space to put the pixels being       // received and converted
+                    // allocate space to put the pixels being  received and converted
                     this.bitmap = new WriteableBitmap(infraredFrameDescription.Width, infraredFrameDescription.Height, 96.0, 96.0, PixelFormats.Gray32Float, null);
                     break;
 
@@ -145,8 +145,6 @@ namespace kinectTutorial04
         private void Reader_MultiSourceFrameArrived(object sender, MultiSourceFrameArrivedEventArgs e)
         {
             MultiSourceFrame multiSourceFrame = e.FrameReference.AcquireFrame();
-
-            // If the Frame has expired by the time we process this event, return.
 
             switch (currentDisplayFrameType)
             {
@@ -185,7 +183,7 @@ namespace kinectTutorial04
                     // verify data and write the new color frame data to the display bitmap
                     if ((colorFrameDescription.Width == this.bitmap.PixelWidth) && (colorFrameDescription.Height == this.bitmap.PixelHeight))
                     {
-                        colorFrame.CopyConvertedFrameDataToIntPtr(this.bitmap.BackBuffer, (uint)(colorFrameDescription.Width * colorFrameDescription.Height * 4),
+                        colorFrame.CopyConvertedFrameDataToIntPtr(this.bitmap.BackBuffer, (uint)(colorFrameDescription.Width * colorFrameDescription.Height *4),
                             ColorImageFormat.Bgra);
 
                         this.bitmap.AddDirtyRect(new Int32Rect(0, 0, this.bitmap.PixelWidth, this.bitmap.PixelHeight));
@@ -273,8 +271,6 @@ namespace kinectTutorial04
         /// Directly accesses the underlying image buffer of the InfraredFrame to create a displayable bitmap.
         /// This function requires the /unsafe compiler option as we make use of direct access to the native memory pointed to by the infraredFrameData pointer.
         /// Activate "unsafe" in the solution properties > on the left >Build > Check Allow unsafe code
-        /// <param name="infraredFrameData">Pointer to the InfraredFrame image data</param>
-        /// <param name="infraredFrameDataSize">Size of the InfraredFrame image data</param>
         private unsafe void ProcessInfraredFrameData(IntPtr infraredFrameData, uint infraredFrameDataSize, FrameDescription infraredFrameDescription)
         {
             // infrared frame data is a 16 bit value
