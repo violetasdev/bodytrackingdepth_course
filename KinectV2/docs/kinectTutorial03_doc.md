@@ -150,7 +150,7 @@ We lock the object __bitmap__ to prevent changes while we write the information 
         }
 ```
 
-8. Now, we will configure the interface to display the image we created. Open your interface file by clicking in ___MainWindow.XAML.cs___. You will see a Windows 10 type form with the XAML code below. XAML is a markup language, so you need to properly close the tags to make it work. 
+8. Now, we will configure the interface to display the image we created. Open your interface file by clicking in ___MainWindow.XAML.cs___. You will see a window with the XAML code definition below. XAML is a markup language, so you need to properly close the tags to make it work. 
 
 <img src="images/03/03_xaml.png" >
 
@@ -181,4 +181,4 @@ We lock the object __bitmap__ to prevent changes while we write the information 
 
 <img src="images/03/03_results.png" >
 
-11. Congratulations! You finished Tutorial 03. Check the complete source code in the repository for a comprehensive overview [Link](https://github.com/violetasdev/bodytrackingdepth_course/tree/master/KinectV2/kinectTutorial03_)
+11. Congratulations! You finished Tutorial 03. Check the complete source code in the repository for a comprehensive overview [Link](https://github.com/violetasdev/bodytrackingdepth_course/tree/master/KinectV2/kinectTutorial03)

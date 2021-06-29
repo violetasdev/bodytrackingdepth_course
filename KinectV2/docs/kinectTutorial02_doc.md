@@ -204,7 +204,7 @@ private unsafe void ProcessInfraredFrameData(IntPtr infraredFrameData, uint infr
         }
 ```
 
-9. Now, we will configure the interface to display the image we created. Open your interface file by clicking in ___MainWindow.XAML.cs___. You will see a Windows 10 type form with the XAML code below. XAML is a markup language, so you need to properly close the tags to make it work. 
+9. Now, we will configure the interface to display the image we created. Open your interface file by clicking in ___MainWindow.XAML.cs___. You will see a window with the XAML code definition below. XAML is a markup language, so you need to properly close the tags to make it work. 
 
 <img src="images/02/02_xamlwindow.png" >
 
