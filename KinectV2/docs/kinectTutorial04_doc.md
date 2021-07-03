@@ -12,9 +12,11 @@ __Our goal:__
 
 * You already know the general details of opening the camera. Check the [Tutorial 01](https://github.com/violetasdev/bodytrackingdepth_course/blob/master/KinectV2/docs/kinectTutorial01_doc.md) as this is the template we are following.
 
+* You have finished tutorials 00 to 03. Check the [Tutorials Documentations](https://github.com/violetasdev/bodytrackingdepth_course/blob/master/KinectV2/docs/) as this is the template we are following.
+
 ## Setting up the camera source variables
 
-Before opening the camera, we need to code and declare the events and variables to retrieve the color frames.
+Before opening the camera, we need to code and declare the events and variables to retrieve the depth frames.
 
 __Important objects__: To handle the different frames data sources, we will need the following variables:
 
@@ -40,7 +42,7 @@ using Microsoft.Kinect;
 ```C#
 ...
 
-namespace kinectTutorial03
+namespace kinectTutorial04
 {
     public enum DisplayFrameType
     {
