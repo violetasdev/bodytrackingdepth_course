@@ -12,6 +12,8 @@ __Our goal:__ We will learn how to access events in the interface and to manage 
 
 * You already know the general details of opening the camera. Check the [Tutorial 01](https://github.com/violetasdev/bodytrackingdepth_course/blob/master/KinectV2/docs/kinectTutorial01_doc.md) as this is the template we are following.
 
+* You have finished tutorials 00 to 02. Check the [Tutorials Documentations](https://github.com/violetasdev/bodytrackingdepth_course/blob/master/KinectV2/docs/) as this is the template we are following.
+
 ## Setting up depth feed
 
 Before opening the camera, we need to code and declare the events and variables to retrieve the color frames.
