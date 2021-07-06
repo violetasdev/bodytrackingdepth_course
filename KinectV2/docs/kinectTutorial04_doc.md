@@ -16,7 +16,7 @@ __Our goal:__
 
 ## Setting up the camera source variables
 
-Before opening the camera, we need to code and declare the events and variables to retrieve the depth frames.
+Before opening the camera, we need to understand the events and variables to retrieve the depth frames.
 
 __Important objects__: To handle the different frames data sources, we will need the following variables:
 
@@ -352,7 +352,7 @@ __Note__: Remember to activate the ___Allow unsafe code___ in your project's ___
         }
 ```
 
-11. Now we the main logic is configured, we modify the interface to show the image and the buttons to select the frame source we want to display. Open your interface file by clicking in ___MainWindow.XAML.cs___. You will see a window with the XAML code definition below. XAML is a markup language, so you need to properly close the tags to make it work. 
+11. Now with the main logic configured, we modify the interface to show the image and the buttons to select the frame source we want to display. Open your interface file by clicking in ___MainWindow.XAML.cs___. You will see a window with the XAML code definition below. XAML is a markup language, so you need to properly close the tags to make it work. 
 
 <img src="images/04/04_xaml.png" >
 
