@@ -530,7 +530,7 @@ The goal of this method is __to identify where are the body joints located__. Fo
 
 <img src="images/04/04_open_toolbox.png" >
 
-23. You can change the text of each button by selecting the button and changing the name in the XML code in the __Content__ property. 
+23. You can change the text of each button by selecting the button and changing the name in the XAML code in the __Content__ property. 
 
 <img src="images/05/05_skeleton_button.png" >
 
