@@ -118,7 +118,6 @@ public MainWindow()
 // Colors for the positional ellipses
         private void bodyIndexColors()
         {
-
             this.bodyBrushes.Add(Brushes.Red);
             this.bodyBrushes.Add(Brushes.Black);
             this.bodyBrushes.Add(Brushes.Green);
@@ -176,8 +175,8 @@ Once we retrieve the body data, we count how many bodies are in the scene and de
                         ellipse.Height = 1;
                     }
 
-                    // Check if there are bodies changing in the scene
-                    UpdateTracked_Bodies(tracked_bodies);
+                    // Create bodies in the scene
+                    DrawTracked_Bodies(tracked_bodies);
 
                 }
             }
@@ -229,12 +228,15 @@ private void DrawTracked_Bodies(List<Body> tracked_bodies)
                 // false: if its a new body just entered the scene
                 bool is_tracked = false;
 
+                
+
 ```
 
 10. We verify the use of body identifiers and create the bodies. Additionally, we update the label in our interface to see the values of the coordinates __x__ and __y__ in a Cartesian Plane. 
 
 ```C# 
  // First check previously tracked bodies
+                // First check previously tracked bodies
                 for (int exist_id = 0; exist_id < 6; exist_id++)
                 {
                     if (bodies_ids[exist_id] == current_id)
@@ -246,7 +248,7 @@ private void DrawTracked_Bodies(List<Body> tracked_bodies)
                     }
                 }
 
-                // If not previously tracked, then fill the first empty spot in the list of tracking bodies
+                // If not previously tracked, then fill first empty spot in the list of tracking bodies
                 if (!is_tracked)
                 {
                     for (int fill_id = 0; fill_id < 6; fill_id++)
